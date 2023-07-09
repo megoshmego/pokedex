@@ -1,0 +1,54 @@
+.Pokecard {
+    border: 3px solid gold; /* signature poke gold strip */
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    background-color: #F5F5F5;
+    transition: transform .2s;
+  }
+
+.Pokecard-inner {
+    border: 1px solid gray;
+    border-radius: 9px; 
+    height: 90%; /* adjust as per your needs */
+    margin: auto;
+    padding: 10px; /* adjust as per your needs */
+    box-shadow: 0px 0px 5px gray;
+}
+
+  
+  .Pokecard:hover {
+    transform: scale(1.1);
+  }
+  
+
+  .Pokecard.fire {
+    background-color: #F08030;
+  }
+  
+  .Pokecard.water {
+    background-color: #6890F0;
+  }
+  
+  .Pokecard.bug {
+    background-color: #9dbb7f;
+  }
+
+  .Pokecard.electric {
+    background-color: #ddcd70;
+  }
+
+  .Pokecard.flying {
+    background-color: #af84d7;
+  }
+
+  .Pokecard.poison {
+    background-color: #8346b8;
+  }
+
+  .Pokecard.normal {
+    background-color: #bdb485;
+  }
+
+  
